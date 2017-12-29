@@ -1,7 +1,7 @@
 
 
 body{
-	font-family: 'Lato', sans-serif;
+	font-family: "Focus-Regular";
 }
 a{
 	text-decoration: none;
@@ -10,7 +10,8 @@ a{
 #mainNav a{
 	color: #fff;
 	text-transform: uppercase;
-	font-family: 'Yeseva One', cursive;
+	font-family: "Focus-Regular";
+	/*font-family: 'Yeseva One', cursive;*/
 }
 #mainNav {
 	margin: 20px 0;
@@ -95,7 +96,8 @@ a{
 	color: #fff;
 }
 .ingredient-content p{
-	font-family: 'Lato', sans-serif;
+	font-family: "Focus-Regular";
+	/*font-family: 'Lato', sans-serif;*/
 	font-size: 16px;
 	color: #fff;
 }
@@ -118,7 +120,8 @@ a{
 .menu-item {
 	border-bottom: 1px solid #a62c1f;
 	padding: 15px 0;
-	font-family: 'Yeseva One', cursive;
+	font-family: "Focus-Regular";
+	/*font-family: 'Yeseva One', cursive;*/
 }
 .single-content-item .menu-item:last-child{
 	border-bottom: none;
@@ -156,7 +159,7 @@ a{
 	font-family: 'Marck Script', cursive;
 }
 .reviews-content p{
-	font-family: 'Yeseva One', cursive;
+	font-family: "Focus-Regular";
 	font-size: 25px;
 }
 .star {
@@ -185,7 +188,7 @@ a{
 }
 .reservation-text-content p {
 	font-size: 16px;
-	font-family: 'Yeseva One', cursive;
+	font-family: "Focus-Regular";
 }
 .divider{
 	margin: 10px 0;
@@ -194,10 +197,16 @@ a{
 	width: 40%;
 	float: left;
 	margin: 10px 10px;
+	position: relative;
+}
+.single-input i {
+	top: 41px;
+	position: absolute;
+	left: 193px;
 }
 .single-input input {
 	border: none;
-	padding: 10px;
+	padding: 5px;
 	width: 100%;
 }
 .single-input label{
@@ -318,4 +327,14 @@ a{
 }
 .soc-xbox:before {
     content:'\e038';
+}
+/*Custom Fonts*/
+@font-face {
+font-family: "Focus-Medium";
+src: url("assets/fonts/Focus-Medium.ttf");
+src: url("assets/fonts/Focus-Regular.ttf");
+src:
+url("assets/fonts/Focus-Medium.woff") format("woff"),
+url("assets/fonts/Focus-Medium.otf") format("opentype"),
+url("assets/fonts/Focus-Medium.svg#filename") format("svg");
 }
