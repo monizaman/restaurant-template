@@ -1,0 +1,321 @@
+
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+
+#mainNav a{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Yeseva One', cursive;
+}
+#mainNav {
+	margin: 20px 0;
+}
+#mainNav a:hover{
+	color: #fd4b28;
+
+}
+
+.header-social-icon ul li {
+	float: left;
+	list-style: none;
+	padding: 10px;
+}
+.header-social-icon a {
+	color: #6d7080;
+}
+.logo{
+	width: 50%;
+}
+.header-area {
+	background: url(assets/img/header-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	max-height: 650px;
+	text-align: center;
+}
+.header-area h1 {
+	font-size: 80px;
+	font-family: 'Marck Script', cursive;
+	margin-top: 40px;
+	color: #fff;
+}
+.header-btn {
+	margin: 50px 0;
+}
+.book-table-btn {
+	background-color: #8b1b05;
+	padding: 15px 30px;
+	color: #fff;
+	opacity: 0.5;
+}
+.call-now-btn {
+	background-color: #4a4a42;
+	padding: 15px 29px;
+	opacity: 0.5;
+	color: #fff;
+	margin-left: 20px;
+}
+
+/*About*/
+.about-bg {
+	background: url(assets/img/about-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.about-content {
+	text-align: center;
+	padding: 65px 0;
+}
+.about-content h3 {
+	color: #f77860;
+	font-size: 36px;
+	font-family: 'Marck Script', cursive;
+}
+/*Ingredients*/
+.ingredients-bg {
+	background: url(assets/img/ingredient-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.ingredient-content {
+	padding: 60px 40px;
+	text-align: center;
+	background-color: #ed300a;
+	opacity: 0.5;
+	color: #fff;
+}
+.ingredient-content h4{
+	font-family: 'Marck Script', cursive;
+	font-size: 36px;
+	color: #fff;
+}
+.ingredient-content p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+/*Content*/
+.content-bg {
+	background: url(assets/img/content-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.contain-heading {
+	text-align: center;
+}
+.contain-heading h4{
+	font-family: 'Marck Script', cursive;
+}
+.single-content-item {
+	color: #fff;
+	padding: 40px 5px 40px 20px;
+}
+.menu-item {
+	border-bottom: 1px solid #a62c1f;
+	padding: 15px 0;
+	font-family: 'Yeseva One', cursive;
+}
+.single-content-item .menu-item:last-child{
+	border-bottom: none;
+}
+
+.dish{
+	float: left;
+	font-size: 21px;
+	line-height: 24px;
+}
+.price{
+	float: right;
+	font-size: 21px;
+	line-height: 24px;
+}
+
+.description {
+	display: block;
+	clear: both;
+	font-size: 16px;
+}
+
+/*Review*/
+.reviews-bg {
+	background: url(assets/img/review-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.reviews-content {
+	text-align: center;
+	padding: 100px 0px;
+}
+.reviews-content h4{
+	font-size: 40px;
+	font-family: 'Marck Script', cursive;
+}
+.reviews-content p{
+	font-family: 'Yeseva One', cursive;
+	font-size: 25px;
+}
+.star {
+	color: #fac917;
+	padding: 5px;
+}
+
+/*Resarvation*/
+.reservation-bg {
+	background: url(assets/img/reservation-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.reservation-content {
+	padding: 70px 0;
+}
+.reservation-img img {
+	width: 100%;
+}
+.reservation-text-content {
+	text-align: center;
+}
+.reservation-text-content h4 {
+	font-size: 36px;
+	font-family: 'Marck Script', cursive;
+}
+.reservation-text-content p {
+	font-size: 16px;
+	font-family: 'Yeseva One', cursive;
+}
+.divider{
+	margin: 10px 0;
+}
+.single-input {
+	width: 40%;
+	float: left;
+	margin: 10px 10px;
+}
+.single-input input {
+	border: none;
+	padding: 10px;
+	width: 100%;
+}
+.single-input label{
+	color: #fe4b28;
+}
+.single-input input:focus{
+	border:1px solid #a62c1f;
+}
+/*Footer*/
+.footer-bg{
+	background: url(assets/img/footer-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #969595;
+}
+.footer-content {
+	padding: 50px 0;
+	text-align: center;
+}
+
+.social-icon{
+	margin: 15px 0;
+}
+.copy-right{
+	text-transform: uppercase;
+}
+.phone {
+	text-align: center;
+	padding: 35px 0;
+}
+.phone i {
+	color: #fff;
+}
+.phone-number {
+	display: block;
+	margin-top: 5px;
+}
+
+@font-face {
+   font-family: 'si';
+    src: url('assets/fonts/socicon.eot');
+    src: url('assets/fonts/socicon.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/socicon.woff') format('woff'),
+         url('assets/fonts/socicon.ttf') format('truetype'),
+         url('assets/fonts/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(PATH_TO/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 19px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: #1a1e36;
+}
+
+.soc li a:hover{
+	background-color: #fb5535;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter:before {
+    content:'\e040';
+}
+.soc-instagram:before {
+    content:'\e057';
+}
+.soc-facebook:before {
+    content:'\e041';
+}
+.soc-pinterest:before {
+    content:'\e043';
+}
+.soc-xbox:before {
+    content:'\e038';
+}
